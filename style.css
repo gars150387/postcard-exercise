@@ -1,0 +1,39 @@
+body {
+	background-color: black;
+}
+.postal {
+	width: 500px;
+	height: 400px;
+	background-color: white;
+	position: relative;
+	margin: auto;
+	margin-top: 100px;
+}
+.header {
+	height: 50px;
+	width: 500px;
+}
+h1 {
+	position: absolute;
+	left: 15px;
+}
+.image {
+	size: 5px;
+	position: absolute;
+	right: 10px;
+}
+.content {
+	height: 250px;
+	width: 500px;
+	display: block;
+}
+.text1 {
+	font-size: 10px;
+	position: absolute;
+	left: 15px;
+	top: 50px;
+}
+.footer {
+	height: 100px;
+	width: 500px;
+}
