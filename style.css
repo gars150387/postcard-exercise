@@ -2,38 +2,91 @@ body {
 	background-color: black;
 }
 .postal {
-	width: 500px;
-	height: 400px;
+	width: 400px;
+	height: 320px;
 	background-color: white;
 	position: relative;
 	margin: auto;
 	margin-top: 100px;
 }
 .header {
-	height: 50px;
+	border: 3px dot white;
+	height: 88px;
 	width: 500px;
 }
 h1 {
 	position: absolute;
-	left: 15px;
+	left: 33px;
+	top: 9px;
 }
-.image {
-	size: 5px;
+img {
+	width: 60px;
+	height: 60px;
+	font-size: 15px;
 	position: absolute;
-	right: 10px;
+	top: 16px;
+	right: 25px;
+	object-fit: fill;
 }
 .content {
-	height: 250px;
+	height: 115px;
 	width: 500px;
-	display: block;
+	position: relative;
+	top: 110px;
+	display: flex;
+	font-size: 10px;
+	/*line-height: 1px;*/
 }
 .text1 {
-	font-size: 10px;
-	position: absolute;
+	font-size: 16px;
+	width: 210px;
+	position: relative;
 	left: 15px;
-	top: 50px;
+	bottom: 114px;
+	text-align: start;
+	-o-text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	line-height: 20px;
+}
+.text2 {
+	font-size: 16px;
+	width: 218px;
+	position: relative;
+	left: -194px;
+	bottom: 22px;
+	text-align: start;
+	-o-text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	line-height: 20px;
+}
+.info {
+	height: 35px;
+	/*width: 100pxx;*/
+	position: absolute;
+	bottom: 192px;
+	right: 14px;
+	display: flex;
+	line-height: 1px;
+	flex-direction: column;
+	border: transparent;
+}
+input {
+	border: transparent;
+	border-bottom: 1px solid gray;
+	line-height: 20px;
 }
 .footer {
 	height: 100px;
 	width: 500px;
+	margin: auto;
+}
+.submit {
+	position: absolute;
+	left: 136px;
+	bottom: 34px;
+}
+div {
+	height: 2px;
 }

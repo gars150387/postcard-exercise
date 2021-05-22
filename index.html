@@ -3,6 +3,12 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="styleheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
 		<link rel="stylesheet" href="style.css" />
 		<title>Document</title>
 	</head>
@@ -10,12 +16,23 @@
 		<div class="postal">
 			<div class="header">
 				<h1>My postal</h1>
-				<p class="image"><img src="https://github.com/breatheco-de/exercise-postcard/blob/main/.learn/assets/4geeks.png?raw=true" /></p>
+				<div class="row align-items-end"></div>
+				<img src="https://github.com/breatheco-de/exercise-postcard/blob/main/.learn/assets/4geeks.png?raw=true" />
 			</div>
 			<div class="content">
 				<p class="text1">Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academycourse!</p>
+				<p class="text2">This is so cool, i can't wait to start doing more stuff!</p>
 			</div>
-			<div class="footer"></div>
+			<div class="info">
+				<input type="name" placeholder="Some Name" />
+				<div></div>
+				<input type="email" placeholder="Some Email" />
+				<div></div>
+				<input type="comment" placeholder="Some Comment" />
+			</div>
+			<div class="footer">
+				<p class="submit"><button>Send My Postcard</button></p>
+			</div>
 		</div>
 	</body>
 </html>
